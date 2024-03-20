@@ -1,5 +1,7 @@
 Getting Started:
+
 Starting the server: node server.js
+
 Accessing the microservice through a web browser or tool
 
 
