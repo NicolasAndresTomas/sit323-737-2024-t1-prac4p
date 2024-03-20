@@ -1,11 +1,11 @@
 Getting Started:
 
-Starting the server: node server.js
-
-Accessing the microservice through a web browser or tool
+Start the server by inputting "node server.js" into the terminal, be sure to access the microservice through either a web browser or tool.
 
 
 API Endpoints:
+
+To use the Calculator Microservice, be sure to reference the root paths for each arithmetic operation.
 
 Addition (/add):
 - Description: Adds two numbers.
@@ -31,6 +31,4 @@ Division (/divide):
 
 Error Handling:
 
-Invalid input: Returns a status of 400 with a message indicating that num1 and num2 must be numbers.
-
-Division by zero: Returns a status of 400 with a message indicating that division by zero is not allowed.
+Validation for the incorrect input will return a status of 400 with a message indicating that num1 and num2 must be numbers. This also applies in division, when using a zero input number it returns a status of 400 with a message indicating that division by zero is not allowed.
