@@ -4,6 +4,7 @@ Accessing the microservice through a web browser or tool
 
 
 API Endpoints:
+
 Addition (/add):
 - Description: Adds two numbers.
 - Usage: /add?num1=1&num2=2
@@ -28,4 +29,5 @@ Division (/divide):
 
 Error Handling:
 Invalid input: Returns a status of 400 with a message indicating that num1 and num2 must be numbers.
+
 Division by zero: Returns a status of 400 with a message indicating that division by zero is not allowed.
